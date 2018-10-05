@@ -1,5 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>機械設計工程系 2018 Fall 分組網誌 - Misc</title><link href="https://mdecourse.github.io/2018fall/blog/" rel="alternate"></link><link href="https://mdecourse.github.io/2018fall/blog/feeds/misc.atom.xml" rel="self"></link><id>https://mdecourse.github.io/2018fall/blog/</id><updated>2018-09-10T11:00:00+08:00</updated><entry><title>2018 Fall 分組網誌</title><link href="https://mdecourse.github.io/2018fall/blog/2018-Fall-Project-Blog.html" rel="alternate"></link><published>2018-09-10T11:00:00+08:00</published><updated>2018-09-10T11:00:00+08:00</updated><author><name>NFUMDE</name></author><id>tag:mdecourse.github.io,2018-09-10:/2018fall/blog/2018-Fall-Project-Blog.html</id><summary type="html">&lt;p&gt;2018 Fall 開始將網際內容管理、投影片與網誌進行整合.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>機械設計工程系 2018 Fall 分組網誌 - Misc</title><link href="https://mdecadp2018.github.io/site-40623125/blog/" rel="alternate"></link><link href="https://mdecadp2018.github.io/site-40623125/blog/feeds/misc.atom.xml" rel="self"></link><id>https://mdecadp2018.github.io/site-40623125/blog/</id><updated>2018-10-05T11:00:00+08:00</updated><entry><title>2018 Fall 分組網誌第四週</title><link href="https://mdecadp2018.github.io/site-40623125/blog/2018-Fall-Project-Blog-w4.html" rel="alternate"></link><published>2018-10-05T11:00:00+08:00</published><updated>2018-10-05T11:00:00+08:00</updated><author><name>40623125</name></author><id>tag:mdecadp2018.github.io,2018-10-05:/site-40623125/blog/2018-Fall-Project-Blog-w4.html</id><summary type="html">&lt;p&gt;第四週&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;第四週&lt;/p&gt;
+
+
+&lt;p&gt;上課影片：&lt;/p&gt;
+&lt;p&gt;上課內容：&lt;/p&gt;
+&lt;p&gt;課程心得：&lt;/p&gt;
+&lt;p&gt;自評成績：&lt;/p&gt;</content><category term="2018Fall-w4"></category></entry><entry><title>2018 Fall 分組網誌第三週</title><link href="https://mdecadp2018.github.io/site-40623125/blog/2018-Fall-Project-Blog-w3.html" rel="alternate"></link><published>2018-09-28T11:00:00+08:00</published><updated>2018-09-28T11:00:00+08:00</updated><author><name>40623125</name></author><id>tag:mdecadp2018.github.io,2018-09-28:/site-40623125/blog/2018-Fall-Project-Blog-w3.html</id><summary type="html">&lt;p&gt;第三週&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;第三週&lt;/p&gt;
+
+
+&lt;p&gt;上課影片：&lt;/p&gt;
+&lt;p&gt;上課內容：&lt;/p&gt;
+&lt;p&gt;課程心得：&lt;/p&gt;
+&lt;p&gt;自評成績：&lt;/p&gt;</content><category term="2018Fall-w3"></category></entry><entry><title>2018 Fall 分組網誌第二週</title><link href="https://mdecadp2018.github.io/site-40623125/blog/2018-Fall-Project-Blog-w2.html" rel="alternate"></link><published>2018-09-21T11:00:00+08:00</published><updated>2018-09-21T11:00:00+08:00</updated><author><name>40623125</name></author><id>tag:mdecadp2018.github.io,2018-09-21:/site-40623125/blog/2018-Fall-Project-Blog-w2.html</id><summary type="html">&lt;p&gt;第二週&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;第二週&lt;/p&gt;
+
+
+&lt;p&gt;上課影片：&lt;/p&gt;
+&lt;p&gt;上課內容：&lt;/p&gt;
+&lt;p&gt;課程心得：&lt;/p&gt;
+&lt;p&gt;自評成績：&lt;/p&gt;</content><category term="2018Fall-w2"></category></entry><entry><title>2018 Fall 分組網誌第一週</title><link href="https://mdecadp2018.github.io/site-40623125/blog/2018-Fall-Project-Blog-w1.html" rel="alternate"></link><published>2018-09-14T11:00:00+08:00</published><updated>2018-09-14T11:00:00+08:00</updated><author><name>40623125</name></author><id>tag:mdecadp2018.github.io,2018-09-14:/site-40623125/blog/2018-Fall-Project-Blog-w1.html</id><summary type="html">&lt;p&gt;領取期中作業，介紹git系統。&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;領取期中作業，介紹git系統。&lt;/p&gt;
+
+
+&lt;p&gt;上課影片：&lt;/p&gt;
+&lt;p&gt;上課內容：說明如何管理個人的期中作業網站內容，各學員登入 Github 後, 可以從 Github Classroom 連結取得所指定的期中作業倉儲.&lt;/p&gt;
+&lt;p&gt;各學員將此倉儲 git clone 到近端後, 必須利用 git checkout 從內定的 master 分支, 切換到 gh-pages, 此後的網站改版都將以 gh-pages 分支的內容為主.&lt;/p&gt;
+&lt;p&gt;切換到  gh-pages 分支後, 使用者在命令列中進入該倉儲, 然後以 python wsgi.py 啟動 CMSimfly 動態網站, 以內定的 admin 管理者密碼在近端進行內容改版.&lt;/p&gt;
+&lt;p&gt;動態網頁內容確定後, 在新增提交推送到遠端前, 必須要先以 generate_pages 將動態網頁中的 config/content.htm 改寫為 content 目錄中的各 html 頁面.&lt;/p&gt;
+&lt;p&gt;使用者可以利用 SciTE 執行 site 倉儲中的 http-server.py, 在近端以 https://localhost:8444 檢查靜態網頁的內容.&lt;/p&gt;
+&lt;p&gt;確認靜態網頁內容後, 再設法以 git add, git commit, git push 將新版內容送到遠端.&lt;/p&gt;
+&lt;p&gt;課程心得：&lt;/p&gt;
+&lt;p&gt;自評成績：&lt;/p&gt;</content><category term="2018Fall-w1"></category></entry><entry><title>2018 Fall 分組網誌</title><link href="https://mdecadp2018.github.io/site-40623125/blog/2018-Fall-Project-Blog.html" rel="alternate"></link><published>2018-07-18T11:00:00+08:00</published><updated>2018-07-18T11:00:00+08:00</updated><author><name>NFUMDE</name></author><id>tag:mdecadp2018.github.io,2018-07-18:/site-40623125/blog/2018-Fall-Project-Blog.html</id><summary type="html">&lt;p&gt;2018 Fall 開始將網際內容管理、投影片與網誌進行整合.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;2018 Fall 開始將網際內容管理、投影片與網誌進行整合.&lt;/p&gt;
 
 
