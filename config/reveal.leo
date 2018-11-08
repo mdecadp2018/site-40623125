@@ -42,24 +42,63 @@
 <v t="leo.20181004222126.2" a="E"><vh>分支(向下)</vh>
 <v t="leo.20181004222126.3"><vh>內容</vh></v>
 </v>
-<v t="leo.20181004222126.4" a="E"><vh>分支(向下)</vh>
-<v t="leo.20181004222126.5"><vh>內容</vh></v>
 </v>
-</v>
-<v t="leo.20181004222223.1"><vh>W2</vh>
+<v t="leo.20181004222223.1" a="E"><vh>W2</vh>
 <v t="leo.20181004222223.2" a="E"><vh>分支(向下)</vh>
 <v t="leo.20181004222223.3"><vh>內容</vh></v>
 </v>
-<v t="leo.20181004222223.4" a="E"><vh>分支(向下)</vh>
-<v t="leo.20181004222223.5"><vh>內容</vh></v>
 </v>
-</v>
-<v t="leo.20181004222225.1"><vh>W3</vh>
+<v t="leo.20181004222225.1" a="E"><vh>W3</vh>
 <v t="leo.20181004222225.2" a="E"><vh>分支(向下)</vh>
 <v t="leo.20181004222225.3"><vh>內容</vh></v>
 </v>
-<v t="leo.20181004222225.4" a="E"><vh>分支(向下)</vh>
-<v t="leo.20181004222225.5"><vh>內容</vh></v>
+</v>
+<v t="leo.20181108234906.1" a="E"><vh>W4</vh>
+<v t="leo.20181108234906.2" a="E"><vh>分支(向下)</vh>
+<v t="leo.20181108234906.3"><vh>內容</vh></v>
+</v>
+</v>
+<v t="leo.20181108234909.1" a="E"><vh>W5</vh>
+<v t="leo.20181108234909.2" a="E"><vh>分支(向下)</vh>
+<v t="leo.20181108234909.3"><vh>內容</vh></v>
+</v>
+<v t="leo.20181108234909.4" a="E"><vh>分支(向下)</vh>
+<v t="leo.20181108234909.5"><vh>內容</vh></v>
+</v>
+<v t="leo.20181109000823.1" a="E"><vh>分支(向下)</vh>
+<v t="leo.20181109000837.1"><vh>內容</vh></v>
+</v>
+<v t="leo.20181109000833.1" a="E"><vh>分支(向下)</vh>
+<v t="leo.20181109000839.1"><vh>內容</vh></v>
+</v>
+<v t="leo.20181109000830.1" a="E"><vh>分支(向下)</vh>
+<v t="leo.20181109000840.1"><vh>內容</vh></v>
+</v>
+</v>
+<v t="leo.20181108234910.1" a="E"><vh>W6</vh>
+<v t="leo.20181108234910.2" a="E"><vh>分支(向下)</vh>
+<v t="leo.20181108234910.3"><vh>內容</vh></v>
+</v>
+<v t="leo.20181108234910.4" a="E"><vh>分支(向下)</vh>
+<v t="leo.20181108234910.5"><vh>內容</vh></v>
+</v>
+</v>
+<v t="leo.20181108234911.1" a="E"><vh>W7</vh>
+<v t="leo.20181108234911.2" a="E"><vh>分支(向下)</vh>
+<v t="leo.20181108234911.3"><vh>內容</vh></v>
+</v>
+<v t="leo.20181108234911.4" a="E"><vh>分支(向下)</vh>
+<v t="leo.20181108234911.5"><vh>內容</vh></v>
+</v>
+</v>
+<v t="leo.20181108234924.1" a="E"><vh>W8</vh>
+<v t="leo.20181108234924.2" a="E"><vh>分支(向下)</vh>
+<v t="leo.20181108234924.3"><vh>內容</vh></v>
+</v>
+</v>
+<v t="leo.20181109001347.1" a="E"><vh>W9</vh>
+<v t="leo.20181109001347.2" a="E"><vh>分支(向下)</vh>
+<v t="leo.20181109001347.3"><vh>內容</vh></v>
 </v>
 </v>
 </v>
@@ -370,21 +409,8 @@ make.start()
 </t>
 <t tx="leo.20181004222126.3">第一週
 
-* 領取個人作業</t>
-<t tx="leo.20181004222126.4">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-&lt;!-- 請注意, @others 不可以內縮 --&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
+* 領取期中作業，介紹git系統。
 
-
-
-						
-</t>
-<t tx="leo.20181004222126.5">影片
-
-&lt;iframe src="https://player.vimeo.com/video/183950627" width="640" height="492" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 </t>
 <t tx="leo.20181004222223.1">&lt;section&gt;
 @others
@@ -402,19 +428,11 @@ make.start()
 
 						
 </t>
-<t tx="leo.20181004222223.3">第二週</t>
-<t tx="leo.20181004222223.4">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-&lt;!-- 請注意, @others 不可以內縮 --&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
+<t tx="leo.20181004222223.3">第二週
 
+* 說明如何管理網際投影片與網誌。
 
-
-						
-</t>
-<t tx="leo.20181004222223.5">影片</t>
+* 說明如何以 ShareX 取圖，如何管理 CMSimfly 作業倉儲。</t>
 <t tx="leo.20181004222225.1">&lt;section&gt;
 @others
 &lt;/section&gt;
@@ -431,8 +449,15 @@ make.start()
 
 						
 </t>
-<t tx="leo.20181004222225.3">第三週</t>
-<t tx="leo.20181004222225.4">&lt;section data-markdown&gt;
+<t tx="leo.20181004222225.3">第三週
+
+* git 基本操作練習。</t>
+<t tx="leo.20181108234906.1">&lt;section&gt;
+@others
+&lt;/section&gt;
+
+</t>
+<t tx="leo.20181108234906.2">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 &lt;!-- 請注意, @others 不可以內縮 --&gt;
 @others
@@ -443,6 +468,178 @@ make.start()
 
 						
 </t>
-<t tx="leo.20181004222225.5">影片</t>
+<t tx="leo.20181108234906.3">第四週
+
+* 了解如何使用git程式，並管理自己的git網頁和投影片，學習如何使用onshape繪圖軟體。</t>
+<t tx="leo.20181108234909.1">&lt;section&gt;
+@others
+&lt;/section&gt;
+
+</t>
+<t tx="leo.20181108234909.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20181108234909.3">第五週
+
+* 說明如何列出所使用Python 版次與關鍵字
+
+* 說明如何在網頁上，將Brython執行過的程式，以save as 的方式存成近端 .py 檔案。</t>
+<t tx="leo.20181108234909.4">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20181108234909.5">第二週Onshape影片-A
+
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/Xl93hKdibDE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+
+</t>
+<t tx="leo.20181108234910.1">&lt;section&gt;
+@others
+&lt;/section&gt;
+
+</t>
+<t tx="leo.20181108234910.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20181108234910.3">第三週
+
+* 說明電腦輔助設計實習課程中，有關人事時地物等關鍵內容的架構安排。
+
+* 說明如何利用git remote add 在倉儲中，以代號表示遠端倉儲連結。</t>
+<t tx="leo.20181108234910.4">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20181108234910.5">第三週Onshape影片
+
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/4Yb2izJyj8Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20181108234911.1">&lt;section&gt;
+@others
+&lt;/section&gt;
+
+</t>
+<t tx="leo.20181108234911.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20181108234911.3">第七週
+
+* 說明如何利用git remote add指令，建立gitlab與bitbucket上的同步倉儲。</t>
+<t tx="leo.20181108234911.4">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20181108234911.5">第四週Onshape影片
+
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/mByT7eAmBwA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20181108234924.1">&lt;section&gt;
+@others
+&lt;/section&gt;
+
+</t>
+<t tx="leo.20181108234924.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20181108234924.3">第八週
+
+* 機電資整合設計專案流程所需的相關套件運用與技術</t>
+<t tx="leo.20181109000823.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;</t>
+<t tx="leo.20181109000830.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;</t>
+<t tx="leo.20181109000833.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;</t>
+<t tx="leo.20181109000837.1">第二週Onshape影片-B
+
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/yadJmDfIPBU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20181109000839.1">第二週Onshape影片-C
+
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/giZzx0FBDcE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20181109000840.1">第二週Onshape影片-D
+
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/OFn3V5kLqGk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20181109001347.1">&lt;section&gt;
+@others
+&lt;/section&gt;
+
+</t>
+<t tx="leo.20181109001347.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20181109001347.3">第九週
+
+### 期中考周</t>
 </tnodes>
 </leo_file>
