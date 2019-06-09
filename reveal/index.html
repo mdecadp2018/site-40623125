@@ -39,17 +39,17 @@
 <div class="slides">
 <section data-markdown>
     <script type="text/template">
-## 2018Fall 分組網際簡報
+## 2019協同產品設計實習
 
 ### 虎科大機械設計工程系
 
-### 40623125鍾旻諺
+### 40623125鍾旻諺  期末報告投影片
 
 <small>
-Created by [KMOLab](http://lab.kmol.info/)
+ [小組網站](https://mdekmol.github.io/cd2019a-task1-2019cda_t1_g3_1/content/index.html)
 </small>
 
-[2018 Fall 分組網誌](./../blog/index.html)
+[小組倉儲](https://github.com/mdekmol/cd2019a-task1-2019cda_t1_g3_1)
 
 
     </script>
@@ -59,15 +59,11 @@ Created by [KMOLab](http://lab.kmol.info/)
 						
 <section data-markdown>
     <script type="text/template">
-# 投影片快捷鍵
+# GITHUB 倉儲管理
 
-* 利用箭頭上下前後換頁
-* 按 f 鍵進入全螢幕模式 (full screen)
-* 按 s 鍵可以顯示投影片筆記 (show)
-* 按 o 鍵可以切換單張或全域檢視 (overview)
-* 按 b 或 . 鍵可以切換螢幕黑屏 (black)
-* 按 Esc 可以退出全螢幕或全域檢視 (Escape)
+ [小組倉儲推送](https://github.com/mdekmol/cd2019a-task1-2019cda_t1_g3_1/graphs/contributors)
 
+ [期末協同報告倉儲推送](https://github.com/40623128/cd2019a/graphs/contributors)
     </script>
 </section>
 
@@ -77,12 +73,16 @@ Created by [KMOLab](http://lab.kmol.info/)
 <section data-markdown>
     <script type="text/template">
 <!-- 請注意, @others 不可以內縮 -->
-# 數學符號與方程式
+#ONSHAPE 協同操作
 
-Inline math equations go in like so: $\omega = d\phi / dt$. Display
-math should get its own line and be put in in double-dollarsigns:
+球桌與手把-設計與繪製
+[球桌](https://cad.onshape.com/documents/7063242033d0934280d360d8/w/172d28e1bcc6647f37e823d3/e/af2860e27a45e3d65e4744ae)
+[球桌BOM圖](https://cad.onshape.com/documents/7063242033d0934280d360d8/w/172d28e1bcc6647f37e823d3/e/a5b5be1a899db99df6ee6f3b)
+[手把](https://cad.onshape.com/documents/7063242033d0934280d360d8/w/172d28e1bcc6647f37e823d3/e/0ffbf2d9caded49fe7b47679)
+[手把BOM圖](https://cad.onshape.com/documents/7063242033d0934280d360d8/w/172d28e1bcc6647f37e823d3/e/2cb7be2c9a759889c5aa8f36)
 
-$$I = \int \rho R^{2} dV$$
+
+
     </script>
 </section>
 
@@ -92,263 +92,37 @@ $$I = \int \rho R^{2} dV$$
 <section data-markdown>
     <script type="text/template">
 <!-- 請注意, @others 不可以內縮 -->
-## 利用 Markdown 寫投影片
-以下利用 Markdown 格式展示 Python 程式碼:
-```
-# use threading and subprocess to threading the make process
-import os
-import subprocess
-import threading
+球桌手把即送球機構的組裝
+[組裝圖](https://cad.onshape.com/documents/7063242033d0934280d360d8/w/172d28e1bcc6647f37e823d3/e/11b0d24946f9df970779a0ca)
 
-def domake():
+
+
+
+    </script>
+</section>
+
+
+
+						
+</section>
+
+<section>
+<section data-markdown>
+    <script type="text/template">
+<!-- 請注意, @others 不可以內縮 -->
+## 評分比例:
+
+    學員出席 (20%/20%)
+
+    Github 倉儲管理  (20%/20%)
+
+    Onshape 協同操作 (20%/20%)
+
+    V-rep 模擬 (0%/20%)
+
+    程式開發 (0%/20%)
     
-    path = "../exposed/api/exposed"
-    ubuntu = "../Ubuntu"
-    
-    # create obj path
-    
-    if not os.path.exists(path+"/../obj"):
-        os.makedirs(path+"/../obj")
-    
-    subprocess.call(["make", "clean"], cwd=path)
-    subprocess.call("make", cwd=path)
-    subprocess.call(["cp", "{libslvs.so, _slvs.so, slvs.py}", ubuntu], cwd=path)
-    subprocess.call(["python3", "circle_ex.py"], cwd=path+"/"+ubuntu)
-    
-make = threading.Thread(target=domake)
-make.start()
-```
-    </script>
-</section>
-
-
-
-						
-<section data-markdown>
-    <script type="text/template">
-## 使用 iframe 導入影片
-
-### 導入影片 template
-
-<iframe src="https://player.vimeo.com/video/183950627" width="640" height="492" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-    </script>
-</section>
-
-
-						
-</section>
-
-<section>
-<section data-markdown>
-    <script type="text/template">
-<!-- 請注意, @others 不可以內縮 -->
-第一週
-
-* 領取期中作業，介紹git系統。
-
-    </script>
-</section>
-
-
-
-						
-</section>
-
-<section>
-<section data-markdown>
-    <script type="text/template">
-<!-- 請注意, @others 不可以內縮 -->
-第二週
-
-* 說明如何管理網際投影片與網誌。
-
-* 說明如何以 ShareX 取圖，如何管理 CMSimfly 作業倉儲。
-
-    </script>
-</section>
-
-
-
-						
-</section>
-
-<section>
-<section data-markdown>
-    <script type="text/template">
-<!-- 請注意, @others 不可以內縮 -->
-第三週
-
-* git 基本操作練習。
-
-    </script>
-</section>
-
-
-
-						
-</section>
-
-<section>
-<section data-markdown>
-    <script type="text/template">
-<!-- 請注意, @others 不可以內縮 -->
-第四週
-
-* 了解如何使用git程式，並管理自己的git網頁和投影片，學習如何使用onshape繪圖軟體。
-
-    </script>
-</section>
-
-
-
-						
-</section>
-
-<section>
-<section data-markdown>
-    <script type="text/template">
-<!-- 請注意, @others 不可以內縮 -->
-第五週
-
-* 說明如何列出所使用Python 版次與關鍵字
-
-* 說明如何在網頁上，將Brython執行過的程式，以save as 的方式存成近端 .py 檔案。
-
-    </script>
-</section>
-
-
-
-						
-<section data-markdown>
-    <script type="text/template">
-<!-- 請注意, @others 不可以內縮 -->
-第二週Onshape影片-A
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Xl93hKdibDE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-    </script>
-</section>
-
-
-
-						
-<section data-markdown>
-    <script type="text/template">
-<!-- 請注意, @others 不可以內縮 -->
-第二週Onshape影片-B
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/yadJmDfIPBU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-    </script>
-</section>
-
-<section data-markdown>
-    <script type="text/template">
-<!-- 請注意, @others 不可以內縮 -->
-第二週Onshape影片-C
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/giZzx0FBDcE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-    </script>
-</section>
-
-<section data-markdown>
-    <script type="text/template">
-<!-- 請注意, @others 不可以內縮 -->
-第二週Onshape影片-D
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/OFn3V5kLqGk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-    </script>
-</section>
-
-</section>
-
-<section>
-<section data-markdown>
-    <script type="text/template">
-<!-- 請注意, @others 不可以內縮 -->
-第六週
-
-* 說明電腦輔助設計實習課程中，有關人事時地物等關鍵內容的架構安排。
-
-* 說明如何利用git remote add 在倉儲中，以代號表示遠端倉儲連結。
-
-    </script>
-</section>
-
-
-
-						
-<section data-markdown>
-    <script type="text/template">
-<!-- 請注意, @others 不可以內縮 -->
-第三週Onshape影片
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/4Yb2izJyj8Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-    </script>
-</section>
-
-
-
-						
-</section>
-
-<section>
-<section data-markdown>
-    <script type="text/template">
-<!-- 請注意, @others 不可以內縮 -->
-第七週
-
-* 說明如何利用git remote add指令，建立gitlab與bitbucket上的同步倉儲。
-
-    </script>
-</section>
-
-
-
-						
-<section data-markdown>
-    <script type="text/template">
-<!-- 請注意, @others 不可以內縮 -->
-第四週Onshape影片
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/mByT7eAmBwA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-    </script>
-</section>
-
-
-
-						
-</section>
-
-<section>
-<section data-markdown>
-    <script type="text/template">
-<!-- 請注意, @others 不可以內縮 -->
-第八週
-
-* 機電資整合設計專案流程所需的相關套件運用與技術
-
-    </script>
-</section>
-
-
-
-						
-</section>
-
-<section>
-<section data-markdown>
-    <script type="text/template">
-<!-- 請注意, @others 不可以內縮 -->
-第九週
-
-### 期中考周
-
+    自評 : 60
     </script>
 </section>
 
