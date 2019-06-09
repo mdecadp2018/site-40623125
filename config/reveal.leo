@@ -197,7 +197,7 @@ vertical: body pane on the botton</t>
 &lt;/body&gt;
 
 </t>
-<t tx="leo.20190610050330.10">##ONSHAPE 協同操作
+<t tx="leo.20190610050330.10">ONSHAPE 協同操作
 
 球桌與手把-設計與繪製
 
