@@ -223,7 +223,7 @@ vertical: body pane on the botton</t>
 
 						
 </t>
-<t tx="leo.20190610050330.12">球桌手把即送球機構的組裝
+<t tx="leo.20190610050330.12">球桌手把和送球機構的組裝
 
 [組裝圖](https://cad.onshape.com/documents/7063242033d0934280d360d8/w/172d28e1bcc6647f37e823d3/e/11b0d24946f9df970779a0ca)
 
